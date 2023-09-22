@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.container{
+   display: flex;
+   width: 64%;
+   border-radius: 10px 10px;
+   overflow: hidden;
+}
+.sedan {
+    background: #E28525;
+    padding: 45px;
+}
+.suv{
+    background: #016972;
+    padding: 45px;
+}
+.luxury{
+    background: #00403F;
+    padding: 45px;
+}
+h2{
+    color: #f2f2f2;
+    text-transform: uppercase;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+p{
+    color: #ffffffb6;
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+button{
+    width: 145px;
+    height: 45px;
+    border-radius: 2px solid #f2f2f2;
+    background: #f2f2f2;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button-orange{
+    color: #e38826;
+}
+.button-cyan{
+    color: #006970;
+}
+.button-dark-cyan{
+    color: #004241;
+}
+button:hover{
+    background: none;
+    color: #f2f2f2;
+}
+@media only screen and (max-width: 500px){
+    body{
+      display: flex; 
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
